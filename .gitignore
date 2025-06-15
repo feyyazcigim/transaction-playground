@@ -1,0 +1,9 @@
+// Editor configurations and files to ignore in a Git repository
+.vscode
+
+package-lock.json
+node_modules/
+
+dist/
+
+.env

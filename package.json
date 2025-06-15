@@ -1,0 +1,23 @@
+{
+  "name": "transaction-playground",
+  "version": "0.0.1",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "compile": "npx tsc --project tsconfig.json",
+    "start": "npm run compile && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "viem": "^2.31.2"
+  }
+}
